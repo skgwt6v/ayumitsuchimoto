@@ -1,0 +1,12 @@
+---
+layout: pages
+title: テスト
+description: テストファイルです。
+headline: テストファイルの見出し 
+---
+<% data.meta.corporation.each do |key,value| %>
+	<h1><%= key %></h1>
+		<% value.each do |data| %>
+			<p><%= data %></p>
+	<% end %>	
+<% end %>

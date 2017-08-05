@@ -1,0 +1,49 @@
+
+body {
+  // background-image: url(/images/bg.jpg);
+
+}
+p {
+  font-family: $font-family-sans-serif;
+}
+
+/*リストのマークを消します*/
+ul,ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.l-main {
+  min-height: 400px;
+  padding: 15px 0;
+}
+
+
+// ////////////////////////////////////
+// footer  
+// ////////////////////////////////////
+.l-footer {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7b7be+0,b9d3c0+100 */
+// background: #f7b7be; /* Old browsers */
+// background: -moz-linear-gradient(-45deg, #f7b7be 0%, #b9d3c0 100%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(-45deg, #f7b7be 0%,#b9d3c0 100%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(135deg, #f7b7be 0%,#b9d3c0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7b7be', endColorstr='#b9d3c0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */  color: #fff;
+//   padding: 15px 0px;
+
+ background: linear-gradient(-45deg, #00601b, #e10019),
+  url(/images/bg_stripe.gif);
+  background-blend-mode: screen;
+  
+
+  .l-footer-nav {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+    li {
+      display: inline;
+    }
+
+  }
+}

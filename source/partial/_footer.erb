@@ -1,0 +1,11 @@
+<footer class="l-footer">
+  <div class="l-footer-nav">
+    <ul class="container">
+      <% data.meta.pages.each do |page| %>
+        <li><%= link_to(page.title , page.url)%></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="container"><p class="text-left copy">&copy; 2017 <%= data.meta.owner_name %></p></div>
+	
+</footer>

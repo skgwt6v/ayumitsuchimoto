@@ -1,0 +1,14 @@
+---
+layout: top
+title: トップ
+description: テストファイルです。
+headline: テストファイルの見出し 
+---
+
+<% data.meta.pages.each do |pages| %>
+	<h1><%= pages.title %></h1>
+	<p><%= pages.description %></p>
+	<p><%= pages.code %></p>
+	<p><%= pages.url %></p>
+
+<% end %>

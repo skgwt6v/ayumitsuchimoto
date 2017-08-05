@@ -1,0 +1,62 @@
+website_title:  男山株式会社
+website_description: 男山株式会社のホームページです。男山が生まれて300年。北海道で創業してから120年。モンドセレクション初受賞から40年。
+owner_name: otokoyama inc.
+url: http://www.otokoyama.com
+email: info@otokoyama.com
+
+# ページ名 
+pages:
+ - title: トップページ
+   description: トップページです。
+   code: top
+   url: 
+ - title: 男山について
+   description: 男山についてのページです。
+   code: about
+   url: /about
+ - title: 商品情報
+   code: lineup
+   description: 商品情報
+   url: /lineup
+ - title: 酒造り資料館
+   description: 酒造り資料館のページです。
+   code: museum
+   url: /museum
+ - title: 会社情報
+   code: info
+   description: 会社情報のページ
+   url: /info
+
+#会社情報
+corporation:
+ jp:
+   - 男山株式会社
+   - 北海道旭川市永山２条７丁目
+   - 代表者名
+   - 1700年
+   - 事業内容 
+   - "0166-48-1931"
+   - "0166-48-1910"
+ en:
+   - 英語：男山株式会社
+   - 英語：北海道旭川市永山２条７丁目
+   - 英語：代表者名
+   - 英語：1700年
+   - 英語：事業内容 
+   - "英語：0166-48-1931"
+   - "英語：0166-48-1910"
+ cn:
+   - 中国語：男山株式会社
+   - 中国語：北海道旭川市永山２条７丁目
+   - 中国語：代表者名
+   - 中国語：1700年
+   - 中国語：事業内容 
+   - "中国語：0166-48-1931"
+   - "中国語：0166-48-1910"
+
+   
+   
+   
+   
+   
+   

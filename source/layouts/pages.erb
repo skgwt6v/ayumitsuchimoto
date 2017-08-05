@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- <meta name="viewport" content="width=1170px, initial-scale=0.1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || data.meta.website_title %></title>
+    <meta name="description" content="<% data.meta.websit_description %>" />
+    <%= stylesheet_link_tag "site" %>
+
+  </head>
+  <body>
+  <div class="l-wrapper container <%= page_classes %>">
+        <%= partial "/partial/header" %>
+        <%= partial "/partial/nav" %>
+        <div class="l-main">
+          <%= yield %>
+        </div>
+      <%= partial "/partial/footer" %>
+   </div>
+  </div>    
+
+  <%= javascript_include_tag "site" %>
+  </body>
+</html>

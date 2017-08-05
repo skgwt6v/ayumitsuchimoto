@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@import "bootstrap";
+@import "style";
+
+@media (min-width: $screen-xs-min) {
+  @import "style-pc";
+}
+@media (max-width: $screen-xs-min) {
+  @import "style-sp";
+}
